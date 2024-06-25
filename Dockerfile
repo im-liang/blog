@@ -1,3 +1,4 @@
-FROM ghcr.io/logseq/logseq-webapp:latest
-
-EXPOSE 3001
+FROM nginx:stable-alpine
+COPY . /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
