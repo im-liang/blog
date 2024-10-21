@@ -9,3 +9,5 @@ Ensure following setting is turned on
 docker build . -t blog
 
 docker run -it -p 8080:80 blog
+
+deployed on Netlify
