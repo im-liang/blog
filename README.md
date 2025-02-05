@@ -3,7 +3,7 @@
 Ensure following setting is turned on
 	Settings => Editor => All pages public when publishing
 
-... => Export Graph => Export public pages
+... => Export Graph => Export public pages to /blog
 
 
 docker build . -t blog
